@@ -1,0 +1,60 @@
+:root {
+    /* ======== Colors ======== */
+    /* overlay */
+    --color-overlay: rgb(0,0,0,0.2);
+    /* grayscale */
+    --color-gs-00: #000000;
+    --color-gs-01: #181818;
+    --color-gs-02: #444444;
+    --color-gs-03: #b9b9b9;
+    --color-gs-04: #cfcfcf;
+    --color-gs-05: #e4e4e4;
+    --color-gs-06: #f5f5f5;
+    --color-gs-07: #ffffff;
+   
+    /* primary */
+    --color-primary-00: #7B31D4;
+    --color-primary-01: #954CED;
+    --color-primary-02: #A64CED;
+    --color-primary-03: #BA8BF3;
+    --color-primary-04: #954CED33;
+   
+    /* secondary */
+    --color-sec-00: #2FDBBC;
+    --color-sec-01: #FFAA4C;
+    --color-sec-02: #C1DB2F;
+   
+    /* additional */
+    --color-add-00: #FF6C2D;
+    --color-add-01: #EC1211;
+    --color-add-03: #070707;
+    --color-add-04: #a7a7a7;
+    --color-add-05: #F1F1F1;
+    --color-add-06: #383838;
+    /* ======== Font sizes ======== */
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-64: 64px;
+    --fs-96: 96px;
+    --fs-128: 128px;
+
+    /* ======== Line heights ======== */
+    --lh-106: 106%;
+    --lh-120: 120%;
+    --lh-140: 140%;
+
+    /* ======== Font weights ======== */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+
+} 
+   

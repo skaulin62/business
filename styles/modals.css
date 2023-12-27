@@ -1,0 +1,250 @@
+/* =============== Repeated styles =============== */
+.overlay {
+    z-index: 3;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: var(--color-overlay);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.modal {
+    z-index: 4;
+    display: flex;
+    gap: 20px;
+    background-color: var(--color-gs-07);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 417px;
+    width: 100%;
+    /* min-width: 335px; */
+    position: relative;
+}
+.icon-button-close {
+    cursor: pointer;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 16px;
+    right: 16px;
+    background-image: url('../assets/icon-button.png');
+    background-position: center center;
+}
+
+.full-block-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+    align-items: flex-start;
+}
+
+
+.full-block-input_disabled {
+    pointer-events:none;     
+}
+.full-block-input_disabled  .full-block-input__required-box{
+    color: var(--color-add-04) !important;
+ 
+}
+
+.full-block-input_disabled .full-block-input__name{
+    color: var(--color-add-04) !important;
+}
+
+
+.full-block-input_disabled > .full-block-input__error {
+    display: none;
+}
+.full-block-input_disabled > .full-block-input__input {
+    border: 1px solid var(--color-add-05);
+   
+}
+.full-block-input .full-block-input__name {
+    color: var(--color-add-03);
+    font-size: var(--fs-14);
+    font-weight: var(--fw-medium);
+    line-height: 22px;
+}
+/* .full-block-input  */
+ .full-block-input__required-box {
+    color: var(--color-add-00);
+}
+/* .full-block-input > */
+ .full-block-input__required-box{
+    color: var(--color-add-00);
+    font-size: var(--fs-14);
+    font-weight: var(--fw-medium);
+    line-height: 22px;
+}
+.full-block-input__input {
+    padding: 8px 16px;
+    color: var(--color-add-03);
+    font-size: var(--fs-14);
+    font-weight: var(--fw-regular);
+    line-height: 22px;
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid var(--color-add-05);
+
+}
+.full-block-input__input:-webkit-autofill,
+.full-block-input__input:-webkit-autofill:hover, 
+.full-block-input__input:-webkit-autofill:focus, 
+.full-block-input__input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-gs-07) inset;
+}
+
+.full-block-input__input:focus {
+    border:1px solid var(--color-add-04);
+}
+.full-block-input__input:active {
+    border:1px solid var(--color-add-04);
+}
+
+.full-block-input__input_flag {
+    padding-left: 48px;
+   
+    background-image: url('../assets/russian-federation.png');
+    background-repeat: no-repeat;
+    background-size: 22px 16px;
+    background-position: 16px center;
+}
+.full-block-input__input_error {
+    border: 1px solid var(--color-add-01);
+}
+
+.full-block-input__input::placeholder {
+    color: var(--color-add-04);
+}
+.full-block-input__error {
+    display: none;
+    color: var(--color-add-01);
+    font-size: var(--fs-12);
+    font-weight: var(--fw-regular);
+    line-height: 20px;
+}
+/* =============== Modal Contact styles =============== */
+.contact {
+   display: none;
+   z-index: 5;
+}
+.contact__modal {
+    flex-direction: column;
+    
+}
+.contact__form {
+   display: flex;
+   gap: 20px;
+   flex-direction: column;
+align-items: flex-start;
+}
+.contact__inner-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  
+}
+.contact__error {
+    color: var(--color-add-01);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-regular);
+    display: none;
+} 
+.contact__agree {
+    color: var(--color-gs-00);
+    font-size: var(--fs-14);
+    font-weight: var(--fw-light);
+    line-height: var(--lh-140);
+
+}
+.contact__agree a {
+    color: var(--color-primary-02);
+    text-decoration: underline;
+}
+/* =============== Modal Success styles =============== */
+
+.contact-success {
+    display: none;
+    z-index: 5;
+}
+.contact-success__modal {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 64px;
+}
+.contact-success__picture img {
+    max-width: 248px;
+    width: 100%;
+    max-height: 205px;
+    height: 100%;
+
+}
+.contact-success__title {
+    color: var(--color-primary-02);
+    font-size: clamp(var(--fs-24), calc(20px + 1.1vw), var(--fs-36));
+    font-weight: var(--fw-semi-bold);
+
+}
+.contact_success__subtitle {
+    max-width: 345px;
+    font-size: clamp(var(--fs-20), calc(16px + 1vw), var(--fs-24));
+    margin: 0 auto;
+    color: var(--color-gs-02);
+
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-120);
+  
+}
+.contact-success__button  {
+    width: 100%;
+}
+
+/* =============== Modal Cookie styles =============== */
+.cookie {
+    display: block;
+    position: fixed;
+    bottom:30px;
+    right: 0;
+    left:0;
+    padding: 0 65px 0 90px;
+    z-index: 3;
+}
+.cookie__modal {
+    max-width: 1285px;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px 60px 30px 30px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cookie__message {
+    width: 783px;
+    color: var(--color-add-06);
+    font-size: var(--fs-20);
+    line-height: var(--lh-140);
+    font-weight: var(--fw-light);
+}
+
+.cookie__buttons {
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+
+.cookie__button {
+    color: black ;
+
+}

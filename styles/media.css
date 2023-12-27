@@ -1,0 +1,296 @@
+
+
+
+
+@media (max-width:1320px) {
+
+   
+    /* about */
+    .about__inner-wrapper {
+        padding: 0 16px 40px 16px ;
+    } 
+    /* why-buds */
+    .why-budss__inner-wrapper {
+        padding: 100px 16px;
+
+    }
+    /* social-sponsors */
+    .social-snonsors__inner-wrapper {
+        padding: 100px 16px;
+    }
+   
+  
+    /* footer */
+    .footer__inner-wrapper {
+        padding: 40px 16px 0px 16px;
+    }
+
+
+
+   
+}
+@media (max-width: 1136px) {
+    /* header */
+    .header__inner-wrapper-down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 16px;
+    }
+    /* about */
+    .about__inner-wrapper {
+        background-image: none;
+    }
+    .about__info {
+        gap:40px;
+        flex-direction: column;
+     
+    }
+   
+    .about__blocks {
+        align-self: center;
+    }
+    /* social-sponsors */
+    .social-sponsors__sponsors {
+      
+        row-gap: 30px;
+    }
+    /* footer */
+    .footer__up {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .footer__up {
+        gap:40px;
+    }
+   
+}
+
+
+@media (max-width: 1024px) {
+
+   /* why-budss*/
+  
+    .bud-block .bud-block__title {
+        font-weight: var(--fw-bold);
+        line-height: var(--lh-106);
+    }
+    .bud-block  .bud-block__subtitle {
+        max-width: 100%;
+    }
+    .bud-block {
+        flex: auto;
+        height: auto;
+        padding: 20px;
+        padding-bottom: 115px;
+        align-items: flex-start;
+    }
+    .bud-block_style-1 {
+        padding-bottom: 195px;
+        background-image: url('../assets/bud-block-1-02.png');
+
+        background-position: bottom left;
+    }
+    .bud-block_style-2 {
+        padding-bottom: 130px;
+        background-position: bottom left 10%, bottom left 45%, bottom 5% right;
+        background-size: 10% auto, 10% auto, 10% auto;
+    }
+    .bud-block_style-3 {
+        padding-bottom: 115px;
+    
+    }
+    .bud-block_style-4 {
+        padding-bottom: 190px;
+        background-size: 15% auto;
+    }
+    .bud-block_style-1, .bud-block_style-2, .bud-block_style-3, .bud-block_style-4 {
+        max-width: 100%;
+    }
+    
+        
+    /* social-sponsors */
+    .social-sponsors__social {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .social-sponsors__list-links {
+        gap: 28px;
+       
+    }
+    .social-sponsors__item:nth-child(1) {
+        margin-bottom: 90px;
+    }
+    .social-sponsors__item:nth-child(2n) {
+        margin-top: 45px;
+    }
+    /* Cookie */
+    .cookie {
+        padding: 0 20px;
+    }
+    .cookie__modal {
+        flex-wrap: wrap;
+        
+    }
+    .cookie__buttons {
+        min-width: 100%;
+    }
+    .cookie__buttons button {
+        width: 100%;
+    }
+
+    
+}
+@media (max-width: 836px) {
+     /* why-budds */
+     /* .why-budss__subtitle {
+        max-width: 610px;
+    } */
+     .bud-block_style-4 {
+      
+        background-size: 20% auto;
+    }   
+    
+    /* stats */
+    .stats__inner-wrapper {
+        padding: 40px 16px;
+    }
+    /* footer */
+    .footer__nav {
+        max-width: 100%;
+    }
+    .footer__sub-nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer__specification {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* hero */
+    .hero__inner-wrapper {
+        flex-direction: column;
+        gap: 124px;
+        padding: 62px 0 40px 0;
+    }
+    .hero__picture {
+        padding-left: 50px;
+        align-self:  flex-end;
+    }
+    .hero__info {
+        padding-left: 16px;
+    }
+    /* about */
+    .about__title {
+        margin-bottom: 30px;
+    }
+    /* why-budds */
+    .bud-block_style-4 {
+   
+        background-size: 20% auto;
+    }   
+
+   
+    /*  social-sponsors*/
+    .social-sponsors__sponsors {
+     
+        justify-content: space-between;
+    }
+    
+    /* header */
+    .header__burger {
+        display: block;
+    }
+    .header__actions {
+        display: none;
+    }
+   
+}
+
+@media (max-width: 736px) {
+    /* why-budds */
+    .why-budss__inner-wrapper {
+        padding: 80px 16px;
+    }
+    /* social-sponsors */
+     .social-snonsors__inner-wrapper {
+        padding: 40px 16px 100px 16px;
+    }
+    /* footer */
+    .footer__contacts {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer__button {
+        margin-right: 0;
+        margin-bottom: 40px;
+        } 
+         
+     
+}
+
+@media (max-width: 640px) {
+    
+    /* why-buds */
+    .why-budss__subtitle {
+        margin: 20px auto 40px auto;
+    }
+   
+    /* stats */
+    .stats__inner-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 400px;
+        gap: 40px;
+        
+    }
+    .stats__block {
+       flex-direction: row;
+       align-items: center;
+    }
+    
+    /* cookie */
+    .cookie__modal {
+        padding: 30px 20px;
+        gap: 40px;
+    }
+    .cookie__buttons {
+        flex-direction: column;
+    }
+   
+   
+}
+
+@media (max-width: 480px) {
+    /* about */
+    .about__blocks {
+        grid-template-columns: auto;
+        row-gap: 60px;
+    }
+    
+    /* why-budds */
+    .bud-block_style-4 {
+        background-size: 40% auto;
+    }   
+    .bud-block_style-2 {
+        padding-bottom: 130px;
+        background-size: 20% auto, 25% auto, 18% auto;
+    }
+     /* social-sponsors */
+     .social-sponsors__contact  {
+        padding: 40px 20px;
+      }
+      .social-sponsors__button {
+        width: 100%;
+      }
+     /* footer */
+     .footer__list-contacts {
+        flex-direction: column;
+     }
+}
+@media (max-width: 320px) {
+    
+}
